@@ -1,3 +1,4 @@
 site_name: libre-internet
 theme:
   name: material
+  favicon: assets/favicon.svg
