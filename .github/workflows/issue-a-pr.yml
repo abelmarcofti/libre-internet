@@ -1,0 +1,47 @@
+name: Issue aprobado a PR
+
+on:
+  issues:
+    types: [labeled]
+
+permissions:
+  contents: write
+  pull-requests: write
+  issues: write
+
+jobs:
+  crear-pr:
+    if: github.event.label.name == 'aprobado'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install pyyaml
+
+      - name: Generar el archivo del recurso
+        env:
+          ISSUE_BODY: ${{ github.event.issue.body }}
+          ISSUE_NUMBER: ${{ github.event.issue.number }}
+        run: python scripts/issue_a_recurso.py
+
+      - name: Validar
+        run: python scripts/validar.py
+
+      - uses: peter-evans/create-pull-request@v7
+        with:
+          branch: recurso-issue-${{ github.event.issue.number }}
+          commit-message: "Añadir recurso desde el issue #${{ github.event.issue.number }}"
+          title: ${{ github.event.issue.title }}
+          body: |
+            Generado automáticamente desde el issue #${{ github.event.issue.number }}.
+
+            Closes #${{ github.event.issue.number }}
+          labels: recurso
+
+      - name: Avisar si falla
+        if: failure()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh issue comment ${{ github.event.issue.number }} --body "No se pudo generar el recurso. Revisa los datos del formulario (idioma, tipo, licencia o enlace) o consulta el log en la pestaña Actions."
