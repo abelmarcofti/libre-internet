@@ -1,3 +1,6 @@
+  [Català](README.ca.md) | [Castellano](README.md)
+
+
 # Libre-internet
 Biblioteca digital abierta con el fin de compartir recursos libres, gratuitos o públicos entre usuarios.
 
@@ -23,7 +26,7 @@ Se pueden compartir:
 - Cualquier página web que encaje con la filosofía del proyecto
 
 
-**No está permitido añadir enlaces a sitios webs que se dediquen a la distribución de contenidos con derechos de autor sin la autorización de estos.**
+**No está permitido añadir enlaces a sitios web que se dediquen a la distribución de contenidos con derechos de autor sin la autorización de estos.**
 
 
 Se puede compartir material con copyright siempre que se haya publicado con permiso del autor.
