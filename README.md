@@ -1,10 +1,11 @@
-# El proyecto
-Biblioteca digital abierta con el fin de compartir recursos públicos entre usuarios.
-
+# Libre-internet
+Biblioteca digital abierta con el fin de compartir recursos libres, gratuitos o públicos entre usuarios.\
+La biblioteca es catálogo de enlaces, no se aloja ningún archivo en el repositorio.
 ## Por qué existe
-El internet nos ofrece una gran cantidad de conocimiento con tan solo unos clics, pero ahora que ha crecido tanto, es fácil perderse entre tantos sitios webs. Con libre-internet, quiero agrupar todos esos recursos en un solo repositorio para que cualquier usuario pueda colaborar y consultarlos, sin anuncios ni barreras de pagos.
+Internet nos ofrece una gran cantidad de conocimiento con tan solo unos clics, pero ahora que ha crecido tanto, es fácil perderse entre tantos sitios web. Con libre-internet, quiero agrupar todos esos recursos en un solo repositorio para que cualquier usuario pueda colaborar y consultarlos, sin anuncios ni barreras de pago.\
+Me he inspirado en el internet de antes, con comunidades más pequeñas y personales, donde cualquiera podía colaborar y ayudar a un pequeño portal a crecer sin tener que registrarse, añadir tu número de teléfono y que te añadan a una *newsletter* para llenarte el correo electrónico de publicidad.
 
-## Que incluye
+## Qué incluye
 Se pueden compartir:
 - Libros 
 - Manuales
@@ -26,4 +27,5 @@ Se puede compartir material en cualquier idioma, recuerda indicarlo correctament
 [Propón un recurso](https://github.com/abelmarcofti/libre-internet/issues/new/choose) en un minuto, sin tocar código.
 
 ## Licencia
-Este proyecto se distribuye bajo la licencia [GPL-3.0](LICENSE.md)
+Este proyecto se distribuye bajo la licencia [GPL-3.0](LICENSE)\
+**La licencia se aplica al código del repositorio, cada recurso enlazado se distribuye bajo su licencia correspondiente**
