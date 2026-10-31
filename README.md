@@ -14,8 +14,8 @@ Se pueden compartir:
 - Artículos
 - Cualquier página web que encaje con la filosofía del proyecto
 
-**No está permitido añadir enlaces a sitios webs que se dediquen a la distribución de contenidos con derechos de autor sin la autorización de estos**
-Se puede compartir material con copyright siempre que se haya publicado con permiso del autor.
+**No está permitido añadir enlaces a sitios webs que se dediquen a la distribución de contenidos con derechos de autor sin la autorización de estos.**\
+Se puede compartir material con copyright siempre que se haya publicado con permiso del autor.\
 Se puede compartir material en cualquier idioma, recuerda indicarlo correctamente.
 
 ## Acceder
