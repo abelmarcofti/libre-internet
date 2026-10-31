@@ -34,7 +34,7 @@ body:
     id: licencia
     attributes:
       label: Licencia
-      options: [Public-Domain, CC0-1.0, CC-BY-4.0, CC-BY-SA-4.0, MIT, Apache-2.0, GPL-3.0, GFDL-1.3, Dominio Público]
+      options: [Public-Domain, CC0-1.0, CC-BY-4.0, CC-BY-SA-4.0, MIT, Apache-2.0, GPL-3.0, GFDL-1.3, Dominio Público, No aplica, N/D]
     validations:
       required: true
   - type: input

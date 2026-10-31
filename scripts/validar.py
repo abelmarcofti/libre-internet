@@ -8,7 +8,7 @@ IDIOMAS = {"ca", "es", "en", "de", "fr", "pt", "it", "gl", "eu", "nl", "pl", "ru
 TIPOS = re.compile(r"^[^\W\d_]+( [^\W\d_]+)*$")
 LICENCIAS = {
     "Public-Domain", "CC0-1.0", "CC-BY-4.0", "CC-BY-SA-4.0",
-    "MIT", "Apache-2.0", "GPL-3.0", "GFDL-1.3", "Dominio Público", "CC BY-NC-ND 4.0",
+    "MIT", "Apache-2.0", "GPL-3.0", "GFDL-1.3", "Dominio Público", "CC BY-NC-ND 4.0", "No aplica", "N/D"
 }
 
 errores = []
