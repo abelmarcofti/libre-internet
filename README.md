@@ -45,6 +45,7 @@ Se puede compartir material en cualquier idioma, recuerda indicarlo correctament
 
 [Propón un recurso](https://github.com/abelmarcofti/libre-internet/issues/new/choose) en un minuto, sin tocar código.
 
+Más información sobre como contribuir [aquí](CONTRIBUTING.md)
 
 ## Licencia
 Este proyecto se distribuye bajo la licencia [GPL-3.0](LICENSE)

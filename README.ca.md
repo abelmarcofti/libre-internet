@@ -45,6 +45,7 @@ Coneixes un manual, llibre o curs lliure que hauria d'estar aquí?
 
 [Proposa un recurs](https://github.com/abelmarcofti/libre-internet/issues/new/choose) en un minut, sense tocar codi.
 
+Més informació sobre com contribuir [aquí](CONTRIBUTING.md)
 
 ## Llicència
 Aquest projecte es distribueix sota la llicència [GPL-3.0](LICENSE).
