@@ -1,3 +1,5 @@
+  [Català](CONTRIBUTING.ca.mc) | [Castellano](CONTRIBUTING.md)
+
 # Contribuir al catálogo
 Muchas gracias por tomarte el tiempo de contribuir al proyecto. Añadir un elemento al catálogo te llevará menos de dos minutos y ayudarás a transmitir el libre conocimiento a través de internet.
 
